@@ -1,0 +1,13 @@
+tensorflow
+tf_keras
+pandas 
+numpy 
+scikit-learn
+tensorboard
+matplotlib
+streamlit
+fastapi
+uvicorn
+requests
+scikeras
+nltk
