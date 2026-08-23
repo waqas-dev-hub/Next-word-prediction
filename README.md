@@ -1,3 +1,9 @@
+#Author
+Abu Waqas
+
+---
+
+
 # Next Word Prediction using LSTM (FastAPI + Streamlit)
 
 A Deep Learning application that predicts the next word in a sequence using an LSTM model trained on Shakespeare's *Hamlet*. Built with a FastAPI backend and a Streamlit frontend.
@@ -6,13 +12,12 @@ A Deep Learning application that predicts the next word in a sequence using an L
 
 ## Project Architecture
 
-- **ackend.py**: FastAPI backend that loads the trained LSTM model and tokenizer, exposing a /predict REST endpoint.
-- **rontend.py**: Streamlit interactive UI that communicates with the FastAPI backend.
-- **pp.py**: Standalone Streamlit application (monolithic version).
-- **
-ext_word_lstm.h5**: Trained LSTM model weights.
-- **	okenizer.pickle**: Keras Tokenizer mapping words to sequence IDs.
-- **experiemnts.ipynb**: Training and experimentation notebook.
+- Backend.py: FastAPI backend that loads the trained LSTM model and tokenizer, exposing a /predict REST endpoint.
+- Frontend.py: Streamlit interactive UI that communicates with the FastAPI backend.
+- app.py: Standalone Streamlit application (monolithic version).
+- next_word_lstm.h5: Trained LSTM model weights.
+- Tokenizer.pickle: Keras Tokenizer mapping words to sequence IDs.
+- experiemnts.ipynb: Training and experimentation notebook.
 
 ---
 
@@ -20,7 +25,7 @@ ext_word_lstm.h5**: Trained LSTM model weights.
 
 1. **Clone the repository:**
    \\ash
-   git clone <YOUR_REPOSITORY_URL>
+   git clone <YOUR_REPOSITORY_UR>
    cd <REPO_FOLDER>
    \
 2. **Create and activate a virtual environment:**
